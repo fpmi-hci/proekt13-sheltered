@@ -9,6 +9,7 @@ Since that's a web application you can use the following link to access the syst
 
 ## Sub modules
 Angular Web client for desktop browser - https://github.com/fpmi-hci/proekt13-web-sheltered
+
 Mobile client for Android - https://github.com/fpmi-hci/proekt13-mobile-sheltered
 
 ## Usage
