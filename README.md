@@ -13,6 +13,8 @@ Angular Web client for desktop browser - https://github.com/fpmi-hci/proekt13-we
 Mobile client for Android - https://github.com/fpmi-hci/proekt13-mobile-sheltered
 
 ## Usage
+![image](https://user-images.githubusercontent.com/61510010/189128207-3739d6eb-0e12-48c8-a536-89f8adcf49d6.png)
+
 
 ## Contributing
 Author: Elisaveta Moyseychik, 2022
