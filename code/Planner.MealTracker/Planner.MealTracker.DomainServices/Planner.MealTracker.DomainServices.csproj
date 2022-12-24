@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Planner.MealTracker.Infrastructure\Planner.MealTracker.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

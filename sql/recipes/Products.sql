@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Products]
+(
+	[ProductId]	UNIQUEIDENTIFIER	NOT NULL CONSTRAINT [DF_Products_ProductId] DEFAULT NEWID(),
+	[Name]		NVARCHAR(64)		NOT NULL,
+
+	CONSTRAINT [PK_Products] PRIMARY KEY ([ProductId])
+)

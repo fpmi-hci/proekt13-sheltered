@@ -1,0 +1,18 @@
+﻿CREATE TABLE [dbo].[Meals]
+(
+	[MealId]			UNIQUEIDENTIFIER CONSTRAINT [DF_Meals_MealId] DEFAULT (newid()) NOT NULL,
+	[UserId]			UNIQUEIDENTIFIER	NOT NULL,
+	[Date]				DATETIME2			NOT NULL,
+	[Type]				TINYINT				NOT NULL,
+
+	CONSTRAINT [PK_Meals] PRIMARY KEY CLUSTERED ([MealId] ASC)
+)
+GO
+
+CREATE NONCLUSTERED INDEX [IX_dbo_Meals_UserId]
+ON [dbo].[Meals]([UserId] ASC)
+GO
+
+CREATE NONCLUSTERED INDEX [IX_dbo_Meals_Date]
+ON [dbo].[Meals]([Date] ASC)
+GO

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Planner.Profile.Domain\Planner.Profile.Domain.csproj" />
+    <ProjectReference Include="..\Planner.Profile.Infrastructure\Planner.Profile.Infrastructure.Sql.csproj" />
+  </ItemGroup>
+
+</Project>

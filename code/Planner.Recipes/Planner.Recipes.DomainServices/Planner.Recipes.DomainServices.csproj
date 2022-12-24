@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Planner.Recipes.Domain\Planner.Recipes.Domain.csproj" />
+    <ProjectReference Include="..\Planner.Recipes.Infrastructure\Planner.Recipes.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
